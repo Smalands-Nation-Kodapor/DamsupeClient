@@ -15,7 +15,7 @@ Client app for the damsupe.
 
 4. Open index.html in your browser. (Tested with chrome) Haven't bothered to use that many css prefixes so feel free to do so if needed. 
 
-5. To play videos/sound you will have to match the paths set-up in the dashboard application. 
+5. To play videos/sound you will have to match the paths set-up in the dashboard application. Only Mp4 videos can be played. Most sound formats should be covered though.
 
 6. The first time the website loads it will run the last sound/video event pushed by the dashboard, so push a stop event before you open the website if you don't want it to do something on load.
 
