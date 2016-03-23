@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="clientApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client</title>
+    <link href="http://vjs.zencdn.net/5.8.0/video-js.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/animate.css">
+    <link rel="stylesheet" href="./app.css" charset="utf-8">
+    <link rel="stylesheet" href="style/backgrounds.css" charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  </head>
+  <body ng-cloak>
+
+
+    <div ng-view></div>
+
+    <script src="bower_components/vide/dist/jquery.vide.min.js"></script>
+    <script src="utilities/howler.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="bower_components/firebase/firebase.js"></script>
+    <script src="bower_components/angularfire/dist/angularfire.min.js"></script>
+    <script src="./app.js"></script>
+    <script src="audio/audio.js"></script>
+    <script src="utilities/soundfactory.js"></script>
+    <script src="utilities/videofactory.js"></script>
+    <script src="utilities/event.js"></script>
+    <script src="video/video.js"></script>
+    <script src="score/score.js"></script>
+    <script src="utilities/manager.js"></script>
+    <script src="display/display.js"></script>
+  </body>
+</html>

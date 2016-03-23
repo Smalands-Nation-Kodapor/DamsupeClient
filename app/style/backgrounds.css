@@ -1,0 +1,9 @@
+.card-red {
+  background: rgb(181, 16, 16);
+  background-image: linear-gradient(to bottom left, rgb(181, 16, 16), rgb(113, 18, 18));
+}
+
+.card-blue {
+  background: rgb(0, 27, 204);
+  background-image: linear-gradient(to bottom left, rgb(3, 16, 189), rgb(14, 20, 149));
+}
