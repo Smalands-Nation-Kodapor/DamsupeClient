@@ -17,7 +17,7 @@ Client app for the damsupe.
 
 5. To play videos/sound you will have to match the paths set-up in the dashboard application. 
 
-6. The first time the website loads it will run the last sound/video event pushed by the dashboard, sopush a stop event before you open the website if you don't want it to do something on load.
+6. The first time the website loads it will run the last sound/video event pushed by the dashboard, so push a stop event before you open the website if you don't want it to do something on load.
 
 7. You should never have to refresh the page after the initial load. Enjoy.
 
